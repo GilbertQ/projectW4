@@ -54,23 +54,23 @@ These are the activities performed to complete this project:
 3. Assign descriptive names to the activities.
  
 
-neat_Data$code <- activities[neat_Data$code,2]
+    neat_Data$code <- activities[neat_Data$code,2]
 
 4. Assign descriptive names to all the data.
 
-    names(neat_Data)[2] = "Activity"
-    names(neat_Data)<-gsub("Acc", "Accelerometer", names(neat_Data))
-    names(neat_Data)<-gsub("Gyro", "Gyroscope", names(neat_Data))
-    names(neat_Data)<-gsub("BodyBody", "Body", names(neat_Data))
-    names(neat_Data)<-gsub("Mag", "Magnitude", names(neat_Data))
-    names(neat_Data)<-gsub("^t", "Time", names(neat_Data))
-    names(neat_Data)<-gsub("^f", "Frequency", names(neat_Data))
-    names(neat_Data)<-gsub("tBody", "TimeBody", names(neat_Data))
-    names(neat_Data)<-gsub("-mean()", "Mean", names(neat_Data), ignore.case = TRUE)
-    names(neat_Data)<-gsub("-std()", "STD", names(neat_Data), ignore.case = TRUE)
-    names(neat_Data)<-gsub("-freq()", "Frequency", names(neat_Data), ignore.case = TRUE)
-    names(neat_Data)<-gsub("angle", "Angle", names(neat_Data))
-    names(neat_Data)<-gsub("gravity", "Gravity", names(neat_Data))
+        names(neat_Data)[2] = "Activity"
+        names(neat_Data)<-gsub("Acc", "Accelerometer", names(neat_Data))
+        names(neat_Data)<-gsub("Gyro", "Gyroscope", names(neat_Data))
+        names(neat_Data)<-gsub("BodyBody", "Body", names(neat_Data))
+        names(neat_Data)<-gsub("Mag", "Magnitude", names(neat_Data))
+        names(neat_Data)<-gsub("^t", "Time", names(neat_Data))
+        names(neat_Data)<-gsub("^f", "Frequency", names(neat_Data))
+        names(neat_Data)<-gsub("tBody", "TimeBody", names(neat_Data))
+        names(neat_Data)<-gsub("-mean()", "Mean", names(neat_Data), ignore.case = TRUE)
+        names(neat_Data)<-gsub("-std()", "STD", names(neat_Data), ignore.case = TRUE)
+        names(neat_Data)<-gsub("-freq()", "Frequency", names(neat_Data), ignore.case = TRUE)
+        names(neat_Data)<-gsub("angle", "Angle", names(neat_Data))
+        names(neat_Data)<-gsub("gravity", "Gravity", names(neat_Data))
 
 5. Create a new dataset with the average of each variable for each activity and each subject:
 
