@@ -24,4 +24,4 @@ This delivery includes the following files:
 - README.md       : The file with the scripts and explanation to complete this project.
 - CodeBook.md     : Description of the variables, the data and the transformations for this project.
 - secondData.txt  : The final product of the scripts.
-- theCode.R       : R file containing the clean code.
+- run_analysis.R  : R file containing the clean code.
