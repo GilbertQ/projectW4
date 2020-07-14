@@ -25,6 +25,7 @@ These are the activities performed to complete this project:
     }
 
 1. Merge the training and test sets
+
 1.0 Loading dplyr library:
 
        library(dplyr)
