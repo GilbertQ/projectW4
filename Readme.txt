@@ -14,6 +14,7 @@ The authors of the original experiments worked with a group of 30 volunteers wit
 This delivery includes the following files:
 =========================================
 
-- README.md : The file with the scripts and explanation to complete this project.
-- CodeBook.md : Description of the variables, the data and the transformations for this project.
-- NeatData.txt : The final product of the scripts.
+- README.md     : The file with the scripts and explanation to complete this project.
+- CodeBook.md   : Description of the variables, the data and the transformations for this project.
+- NeatData.txt  : The final product of the scripts.
+- theCode.R     : R file containing the clean code.
