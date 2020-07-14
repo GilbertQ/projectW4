@@ -7,7 +7,7 @@ IT Teting Engineer
 iulisesq@hotmail.com
 ==================================================================
 
-This is my job for the proposed project for the Getting and Cleaning Data course from Coursera. The first step was the collection of the data and all the information 
+This is my job for the project for Getting and Cleaning Data course from Coursera. The first step was the collection of the data and all the information 
 from the site http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and the last task was the submission of the project to reviewing 
 from my peers.
 
